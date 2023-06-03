@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class EmptyCartWidget extends StatelessWidget {
   const EmptyCartWidget({
@@ -11,15 +12,12 @@ class EmptyCartWidget extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(10.0, 20.0, 0.0, 20.0),
       child: Row(
         children: [
-          Container(
+          Padding(
             padding: const EdgeInsets.all(10.0),
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.grey.shade100,
-            ),
-            child: Image.asset(
-              'assets/images/empty_cart.png',
-              width: 55.0,
+            child: Lottie.asset(
+              'assets/lottie/empty_cart.json',
+              width: 90.0,
+              repeat: false,
             ),
           ),
           const SizedBox(width: 20.0),
