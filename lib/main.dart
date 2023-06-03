@@ -5,7 +5,7 @@ import './pages/home.dart';
 import './pages/login.dart';
 import './bottom_navbar.dart';
 import './pages/register.dart';
-import './common/reset_password.dart';
+import './pages/reset_password.dart';
 
 void main() => runApp(const MyApp());
 

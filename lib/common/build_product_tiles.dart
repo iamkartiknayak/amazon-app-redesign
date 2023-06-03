@@ -1,8 +1,8 @@
-import 'package:amazon_redesign/model/data.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import 'item_vertical_tile.dart';
+import '../model/data.dart';
+import './item_vertical_tile.dart';
 
 final data = DataModel();
 

@@ -1,7 +1,6 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:dots_indicator/dots_indicator.dart';
+import 'dart:async';
 
 class AdCarousel extends StatefulWidget {
   const AdCarousel({

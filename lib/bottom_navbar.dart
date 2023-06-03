@@ -1,7 +1,7 @@
-import 'package:amazon_redesign/pages/you.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import './pages/you.dart';
 import './pages/home.dart';
 import './pages/cart.dart';
 

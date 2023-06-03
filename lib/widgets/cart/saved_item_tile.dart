@@ -1,8 +1,8 @@
-import 'package:amazon_redesign/common/item_vertical_tile.dart';
-import 'package:amazon_redesign/widgets/cart/primecheck_symbol.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import './primecheck_symbol.dart';
+import '../../common/item_vertical_tile.dart';
 import '../../common/custom_text_button.dart';
 
 class SavedItemTile extends StatelessWidget {

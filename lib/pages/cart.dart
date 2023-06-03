@@ -1,4 +1,3 @@
-import 'package:amazon_redesign/common/build_product_tiles.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
@@ -7,6 +6,7 @@ import '../common/category_header.dart';
 import '../widgets/home/searchbar.dart';
 import '../widgets/cart/empty_cart.dart';
 import '../widgets/cart/amazonpay_ad.dart';
+import '../common/build_product_tiles.dart';
 import '../widgets/cart/saved_item_tile.dart';
 import '../widgets/cart/address_selection_card.dart';
 

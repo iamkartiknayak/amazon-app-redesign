@@ -1,12 +1,12 @@
-import 'package:amazon_redesign/common/filler_tile.dart';
 import 'package:flutter/material.dart';
 
+import '../common/filler_tile.dart';
 import '../widgets/home/top_bar.dart';
 import '../widgets/home/searchbar.dart';
 import '../common/category_header.dart';
 import '../widgets/home/ad_acrousel.dart';
-import '../widgets/home/build_collection.dart';
 import '../common/build_product_tiles.dart';
+import '../widgets/home/build_collection.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

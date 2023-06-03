@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../common/custom_text_button.dart';
 import '../cart/primecheck_symbol.dart';
+import '../../common/custom_text_button.dart';
 import '../../common/item_vertical_tile.dart';
 
 class CurrentOrderTile extends StatelessWidget {
@@ -23,7 +23,7 @@ class CurrentOrderTile extends StatelessWidget {
     var screenWidth = MediaQuery.of(context).size.width;
 
     return Container(
-      width: screenWidth - 50,
+      width: screenWidth - 30,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12.0),
       ),
