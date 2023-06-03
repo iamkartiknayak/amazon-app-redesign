@@ -10,9 +10,6 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double screenWidth = MediaQuery.of(context).size.width;
-    double screenHeight = MediaQuery.of(context).size.height;
-
     final gestureRecognizer = TapGestureRecognizer()
       ..onTap = () {
         Navigator.pushReplacementNamed(
@@ -37,12 +34,12 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SizedBox(height: screenHeight / 6),
                   Center(
                     child: Image.asset(
                       'assets/images/logo.png',
-                      width: screenWidth / 2.3,
+                      width: 175,
                     ),
                   ),
                   const SizedBox(height: 30.0),
@@ -59,7 +56,6 @@ class LoginPage extends StatelessWidget {
                   AuthButton(
                     onTap: () => Navigator.pushReplacementNamed(
                         context, '/bottomNavbar'),
-                    screenWidth: screenWidth,
                     title: 'LOGIN',
                   ),
                   const SizedBox(height: 15.0),

@@ -10,9 +10,6 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double screenWidth = MediaQuery.of(context).size.width;
-    double screenHeight = MediaQuery.of(context).size.height;
-
     final gestureRecognizer = TapGestureRecognizer()
       ..onTap = () {
         Navigator.pushReplacement(
@@ -40,13 +37,13 @@ class RegisterPage extends StatelessWidget {
                   style: TextStyle(color: Colors.grey),
                 ),
               ),
-              ListView(
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SizedBox(height: screenHeight / 6),
                   Center(
                     child: Image.asset(
                       'assets/images/logo.png',
-                      width: screenWidth / 2.3,
+                      width: 175.0,
                     ),
                   ),
                   const SizedBox(height: 30.0),
@@ -68,7 +65,6 @@ class RegisterPage extends StatelessWidget {
                   AuthButton(
                     onTap: () => Navigator.pushReplacementNamed(
                         context, '/bottomNavbar'),
-                    screenWidth: screenWidth,
                     title: 'REGISTER',
                   ),
                   const SizedBox(height: 15.0),
@@ -108,6 +104,7 @@ class RegisterPage extends StatelessWidget {
                       ),
                     ),
                   ),
+                  const SizedBox(height: 25.0),
                 ],
               ),
             ],

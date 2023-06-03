@@ -29,30 +29,29 @@ class AmazonPayAd extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 20.0),
-          const Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              SizedBox(
-                width: 280,
-                child: Text(
+          const Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
                   'Amazon Pay Later | Get instant credit upto ₹60,000',
                   style: TextStyle(fontWeight: FontWeight.w500, height: 1.2),
                 ),
-              ),
-              Text.rich(
-                TextSpan(
-                  style: TextStyle(fontWeight: FontWeight.bold, height: 1.8),
-                  children: [
-                    TextSpan(text: 'Activate and get rewards of '),
-                    TextSpan(
-                      text: '₹600 ',
-                      style: TextStyle(color: Colors.red),
-                    ),
-                    TextSpan(text: '>'),
-                  ],
-                ),
-              )
-            ],
+                Text.rich(
+                  TextSpan(
+                    style: TextStyle(fontWeight: FontWeight.bold, height: 1.8),
+                    children: [
+                      TextSpan(text: 'Activate and get rewards of '),
+                      TextSpan(
+                        text: '₹600 ',
+                        style: TextStyle(color: Colors.red),
+                      ),
+                      TextSpan(text: '>'),
+                    ],
+                  ),
+                )
+              ],
+            ),
           )
         ],
       ),
