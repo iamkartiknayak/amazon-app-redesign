@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 30.0),
                   const AuthTextField(
-                    hintText: 'Email',
+                    hintText: 'Email or mobile number',
                     keyboardType: TextInputType.emailAddress,
                   ),
                   const AuthTextField(

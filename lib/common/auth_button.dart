@@ -4,12 +4,10 @@ class AuthButton extends StatelessWidget {
   const AuthButton({
     super.key,
     required this.title,
-    required this.screenWidth,
     required this.onTap,
   });
 
   final String title;
-  final double screenWidth;
   final VoidCallback onTap;
 
   @override
@@ -17,15 +15,17 @@ class AuthButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: screenWidth - 40.0,
         height: 50.0,
         decoration: BoxDecoration(
           color: const Color(0xffffd814),
           borderRadius: BorderRadius.circular(12.0),
-          gradient: LinearGradient(
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-            colors: [Colors.orange.shade400, Colors.orange.shade600],
+          gradient: const LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Color.fromARGB(255, 86, 119, 158),
+              Color(0xff223040),
+            ],
           ),
         ),
         child: Center(
