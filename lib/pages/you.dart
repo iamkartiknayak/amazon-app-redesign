@@ -136,7 +136,7 @@ class _YouPageState extends State<YouPage> {
                     child: Row(
                       children: [
                         AmazonServiceTile(
-                          imagePath: 'assets/images/pay_logo2.png',
+                          imagePath: 'assets/images/pay_logo.png',
                           serviceName: 'Amazon Pay',
                         ),
                         SizedBox(width: 20.0),
