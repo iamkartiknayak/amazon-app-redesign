@@ -1,4 +1,3 @@
-import 'package:amazon_redesign/pages/menu.dart';
 import 'package:flutter/material.dart';
 
 import './constants.dart';
@@ -26,7 +25,6 @@ class MyApp extends StatelessWidget {
         '/resetPasswordPage': (_) => const ResetPasswordPage(),
         '/bottomNavbar': (_) => const BottomNavbar(),
         '/homePage': (_) => const HomePage(),
-        '/menuPage': (_) => const MenuPage(),
       },
     );
   }
