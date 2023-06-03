@@ -7,8 +7,8 @@
  #### The project structure is organized in the following way:
 
  #### lib: contains the main Dart code for the application
- #### pages: contains the different screens for the application (e.g. Home, Chat, Calls, etc.)
- #### common: contains the various widgets used throughout the application (e.g. chat bubbles, contact cards, etc.)
+ #### pages: contains the different screens for the application
+ #### common: contains the various common widgets used throughout the application
  #### assets/images: contains any necessary images used in the application 
 
 <br>
