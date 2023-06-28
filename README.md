@@ -45,28 +45,16 @@ Clone the repository using the following command:
 <br>
 
 ## Screenshots
-Login Screen
+Login Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Register Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forgot Password Screen
 
-<img src="./screenshots/login.jpg" alt="Example Image" width="300"><br><br>
-
-Register Screen
-
-<img src="./screenshots/register.jpg" alt="Example Image" width="300"><br><br>
-
-Forgot Password Screen
-
+<img src="./screenshots/login.jpg" alt="Example Image" width="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./screenshots/register.jpg" alt="Example Image" width="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./screenshots/forgot_password.jpg" alt="Example Image" width="300"><br><br>
 
-Shop Screen
+Shop Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cart Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You Screen
 
-<img src="./screenshots/shop.jpg" alt="Example Image" width="300"><br><br>
-
-Cart Screen
-
-<img src="./screenshots/cart.jpg" alt="Example Image" width="300"><br><br>
-
-You Screen
-
+<img src="./screenshots/shop.jpg" alt="Example Image" width="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./screenshots/cart.jpg" alt="Example Image" width="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="./screenshots/you.jpg" alt="Example Image" width="300"><br><br>
 
 
