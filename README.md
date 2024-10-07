@@ -12,11 +12,11 @@ This project is a partial visual redesign of the Amazon app using Flutter, a pop
 ### Installation
 #### Clone the repository using the following command:
 ```bash
-git clone https://github.com/iamkartiknayak/Flutter_UI_Redesign_Amazon_App.git
+git clone https://github.com/iamkartiknayak/amazon-app-redesign.git
 ```
 #### Rename the project directory before running flutter commands
 ```bash
-mv Flutter_UI_Redesign_Amazon_App amazon_redesign
+mv amazon-app-redesign amazon_redesign
 ```
 #### Navigate to the project directory:
 ```bash
